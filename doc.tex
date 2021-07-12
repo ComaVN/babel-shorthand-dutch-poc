@@ -1,0 +1,18 @@
+\documentclass{article}
+
+% This disables shorthands, but fails on translated commands containing a Dutch I J digraph:
+\usepackage[shorthands=off,main=dutch]{babel}
+% This works (but enables shorthands):
+% \usepackage[main=dutch]{babel}
+
+\begin{document}
+
+This shows the Dutch digraph I J as separate character: ij
+
+This shows it as a single ligature: \ij{}
+
+This shows it as a single ligature, using a Babel shorthand: "y
+
+This shows {\textbackslash}listfigurename in Dutch: \listfigurename
+
+\end{document}
