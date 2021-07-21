@@ -1,6 +1,6 @@
 # PoC for LaTeX Babel package shorthand problem in Dutch
 
-This shows the problem when using the `shorthands=off` parameter to the Babel package for the Dutch language
+This shows the [issue](https://github.com/latex3/babel/issues/140) when using the `shorthands=off` parameter to the Babel package for the Dutch language
 
 ```
 $ latex doc.tex
