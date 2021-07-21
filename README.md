@@ -26,4 +26,6 @@ Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
 l.16 ...h}listfigurename in Dutch: \listfigurename
 ```
 
+`minimal.tex` is the minimal document that fails for me (in v3.61)
+)
 Using the other `\usepackage` line does work as expected (but enables shorthands)
